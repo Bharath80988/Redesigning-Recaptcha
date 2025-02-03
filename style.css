@@ -1,0 +1,120 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Components/bg.jpg') no-repeat center center/cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin: 10px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Password Field Container */
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Eye Icon */
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.eye-icon:hover {
+    color: white;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+}
+
+p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
